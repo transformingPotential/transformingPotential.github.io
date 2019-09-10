@@ -498,7 +498,8 @@ main.about article {
 }
 
 .meetTheTeam article {
-    min-height: 510px;
+    min-height: 540px;
+    padding: 5px;
 }
 
 .meetTheTeam article .team {
