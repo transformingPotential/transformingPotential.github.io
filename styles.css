@@ -208,6 +208,20 @@ main button {
     overflow: auto;
 }
 
+.seeMore {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+    text-shadow: 0px -2px #BD3E31;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
 .col-3 {
     width: 33.3%;
     float: left;
@@ -452,7 +466,7 @@ header.courses {
     }
 
     .video iframe {
-        width: 320px; 
+        width: 310px; 
         height: 200px;
     }
 
@@ -476,9 +490,8 @@ header.courses {
 
 /* -------------About------------- */
 
-main.about {
+.meetTheTeam {
     margin-top: 110px;
-    overflow: auto;
 }
 
 .about h3 {
@@ -498,7 +511,7 @@ main.about article {
 }
 
 .meetTheTeam article {
-    min-height: 560px;
+    text-align: center;
     padding: 5px;
 }
 
@@ -516,6 +529,10 @@ main.about article {
     width: 60%;
     margin: 0 auto;
     background-size: cover;
+}
+
+.meetTheTeam .jobTitle {
+    height: 120px;
 }
 
 .meetTheTeam .jay {
@@ -612,5 +629,9 @@ form textarea {
 
 form input[type=submit] {
     background-color: #90EE90;
+}
+
+main {
+    display: block;
 }
 
