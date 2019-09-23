@@ -9,6 +9,7 @@ html {
 body {
     margin: 0;
     font-family: 'Roboto', Helvetica;
+    color: #2f3742;
 }
 
 a {
@@ -40,9 +41,8 @@ h4 {
 }
 
 nav {
-    background-color: #3a2d3f;
-    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,5,68,1) 100%, rgba(0,212,255,1) 100%);
-    padding: 30px 10px;
+    background-color: #003b59;
+    padding: 5px 10px;
     color: #ffffff;
     overflow: auto;
     font-size: 1.5rem;
@@ -56,7 +56,7 @@ nav #hamburger {
 }
 
 nav .logo {
-    height: 50px;
+    height: 100px;
     float: left;
     overflow: hidden;
 }
@@ -68,7 +68,7 @@ nav .logo {
 nav ul {
     margin: 0;
     overflow: auto;
-    line-height: 50px;
+    line-height: 100px;
 }
 
 nav li {
@@ -81,9 +81,7 @@ nav li {
     height: 100vh;
     width: 100vw;
     z-index: 10;
-    background-color: #3a2d3f;
-    background-color: #3a2d3f;
-    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,5,68,1) 100%, rgba(0,212,255,1) 100%);
+    background-color: #003b59;
     position: fixed;
     top: 110px;
 }
@@ -95,7 +93,7 @@ nav li {
 #navOverlay li {
     list-style: none;
     font-size: 3rem;
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: right;
     cursor: pointer;
 }
@@ -238,8 +236,7 @@ main button {
 }
 
 .footer {
-    background-color: #3a2d3f;
-    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,5,68,1) 100%, rgba(0,212,255,1) 100%);
+    background-color: #003b59;
     padding-top: 20px;
     color: #ffffff;
 }
@@ -286,13 +283,6 @@ main button {
         width: 50%;
     }
 
-}
-
-@media screen and (max-width: 620px){
-    html {
-        font-size: 12px;
-    }
-
     nav ul {
         display: none;
     }
@@ -300,11 +290,27 @@ main button {
     nav #hamburger {
         display: block;
         float: right;
-        height: 50px;
+        height: 74px;
+        padding: 10px;
+    }
+
+    nav .logo {
+        height: 74px;
     }
 
     nav #hamburger img {
         height: 100%;
+    }
+
+    nav {
+        padding: 18px 10px;
+    }
+
+}
+
+@media screen and (max-width: 620px){
+    html {
+        font-size: 12px;
     }
 
     .container {

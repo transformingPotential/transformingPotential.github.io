@@ -7,7 +7,7 @@ document.getElementById("navOverlay").addEventListener('click', function(){
 })
 
 window.addEventListener('resize', function(){
-    if(window.screen.width > 620){
+    if(window.screen.width > 920){
         document.getElementById("navOverlay").classList.add("hidden")
     }
 })
